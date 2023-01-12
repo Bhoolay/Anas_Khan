@@ -1,0 +1,215 @@
+body{
+    background-color: rgba(255, 255, 255, 0.74);
+}
+.home_page_hadding{
+    background-color: rgb(231, 226, 226);
+    padding-left: 9px;
+    padding-bottom: 4px;
+    color: rgb(0, 120, 175);
+    border-color: rgb(155, 155, 155);
+    border-radius: 10px;
+    
+}
+.pk{
+    color: rgb(15, 145, 15);
+}
+.home_image{
+    display: flex;
+    justify-content: center;
+}
+/* .home_image{
+    display: block;
+    margin: 0 auto;
+} */
+/* .search_heading_position{
+    position: absolute;
+    padding-top: 500px;
+    padding-left: 500px;
+    display: block;
+} */
+.search_bar_position{
+    position: absolute;
+    padding-top: 550px;
+    padding-left: 350px;
+}
+/* .search_hadding{
+    display: inline;
+    background-color: rgb(36, 36, 36);
+    color: rgb(19, 18, 18);
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+.search{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 0.3cm;
+    /* background-color: rgb(155, 155, 155); */
+}
+.search_icon{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    /* justify-content: space-between; */
+    margin-left: 5px;
+    /* box-shadow: 1px 1px 2px rgb(255, 255, 255); */
+}
+.search_icon > i{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+.search_bar{
+    width: 600px;
+    height: 50px;
+    /* border-color: black; */
+    border-radius: 30px;
+    padding-left: 1cm;
+    /* box-shadow: 2px 2px 2px 1px rgb(204, 204, 204); */
+}
+.hr_line{
+    border-color: blue;
+    display: flex;
+    justify-content: center;
+    height: 5px;
+    background-color: blue;
+    
+}
+.container_1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.trips_images{
+    width: 200px;
+    height: 350px;
+    margin: 20px;
+    border-color: black;
+}
+.box1{
+    /* background-color: rgb(190, 190, 190); */
+    /* box-shadow: 1px 1px 1px 1px rgb(133, 133, 133); */
+    width: 250px;
+    height: 250px;
+    /* border-radius: 20px;
+    overflow: hidden; */
+}
+.box2{
+    /* background-color: rgb(190, 190, 190); */
+    /* box-shadow: 1px 1px 1px 1px rgb(133, 133, 133); */
+    width: 250px;
+    height: 250px;
+    /* border-radius: 20px;
+    overflow: hidden; */
+}
+.box3{
+    /* background-color: rgb(190, 190, 190); */
+    /* box-shadow: 1px 1px 1px 1px rgb(133, 133, 133); */
+    width: 250px;
+    height: 250px;
+    /* border-radius: 20px;
+    overflow: hidden; */
+}
+.box4{
+    /* background-color: rgb(190, 190, 190); */
+    /* box-shadow: 1px 1px 1px 1px rgb(133, 133, 133); */
+    width: 250px;
+    height: 250px;
+    /* border-radius: 20px;
+    overflow: hidden; */
+}
+.container_2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.heart_icon{
+    position: absolute;
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 100px;
+    padding-left: 200px;
+}
+.heart_icon > i{
+    color: #fff;
+    padding-top: 7px;
+    display: flex;
+    justify-content: center;
+}
+.box5{
+    /* background-color: rgb(190, 190, 190); */
+    /* box-shadow: 1px 1px 1px 1px rgb(133, 133, 133); */
+    width: 250px;
+    height: 350px;
+    /* border-radius: 20px;
+    overflow: hidden; */
+}
+.box6{
+    /* background-color: rgb(190, 190, 190); */
+    /* box-shadow: 1px 1px 1px 1px rgb(133, 133, 133); */
+    width: 250px;
+    height: 350px;
+    /* border-radius: 20px;
+    overflow: hidden; */
+}
+.box7{
+    /* background-color: rgb(190, 190, 190); */
+    /* box-shadow: 1px 1px 1px 1px rgb(133, 133, 133); */
+    width: 250px;
+    height: 350px;
+    /* border-radius: 20px;
+    overflow: hidden; */
+}
+.box8{
+    /* background-color: rgb(190, 190, 190); */
+    /* box-shadow: 1px 1px 1px 1px rgb(133, 133, 133); */
+    width: 250px;
+    height: 350px;
+    /* border-radius: 20px;
+    overflow: hidden; */
+}
+.information_div{
+    padding-top: 10px;
+}
+.trip_hading{
+    padding-left: 10px;
+    padding-top: 200px;
+    display: inline;
+    position: absolute;
+    color: #fff;
+}
+.trip_hading_2{
+    padding-left: 10px;
+    padding-top: 200px;
+    display: inline;
+}
+.main_circle_div{
+    padding-left: 10px;
+}
+.circle{
+    background-color: green;
+    border-radius: 20px;
+    width: 10px;
+    height: 10px;
+    /* align-items: center;
+    display: flex; */
+    /* justify-content: center; */
+    justify-content: space-between;
+    /* flex-direction: column; */
+    display: inline-block;
+    justify-content: space-between;
+}
+.trip_discription{
+    padding-left: 10px;
+    display: inline;
+}
